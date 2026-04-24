@@ -1,0 +1,305 @@
+---
+import '../styles/site.css';
+const title = "Fairways Boarding Cattery | Ramsgate, Kent";
+const description = "A small, personal boarding cattery in Ramsgate, Kent. Run by Kirsty Durrell. Licence No. LN/202200679.";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</head>
+<body>
+
+<!-- Preview banner -->
+<div style="background:white;color:#374151;padding:8px 16px;text-align:center;font-size:13px;position:sticky;top:0;z-index:50;border-bottom:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,0.05)"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap"><span>Preview redesign for <strong style="color:#111827">Fairways Boarding Cattery</strong></span><a href="https://biscuitweb.co.uk/activate?id=3047&amp;name=Fairways%20Boarding%20Cattery" style="display:inline-flex;align-items:center;padding:4px 14px;background:#111827;color:white;font-weight:700;font-size:11px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+<!-- Navigation -->
+<nav class="bg-white border-b border-[var(--color-border)] sticky top-[41px] z-40">
+  <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+    <a href="/3047" class="font-display font-800 text-lg text-[var(--color-ink)] leading-tight">
+      Fairways<br /><span class="text-[var(--color-brand-accent)] text-sm font-700">Boarding Cattery</span>
+    </a>
+    <!-- Desktop nav -->
+    <ul class="hidden lg:flex items-center gap-6 text-sm font-600 text-[var(--color-ink-soft)]">
+      <li><a href="/3047" class="text-[var(--color-brand-accent)] font-700">Home</a></li>
+      <li><a href="/3047/boarding-charges-html" class="hover:text-[var(--color-brand-accent)] transition-colors">Boarding Charges</a></li>
+      <li><a href="/3047/opening-times-html" class="hover:text-[var(--color-brand-accent)] transition-colors">Opening Times</a></li>
+      <li><a href="/3047/important-info-html" class="hover:text-[var(--color-brand-accent)] transition-colors">Important Info</a></li>
+      <li><a href="/3047/reviews-html" class="hover:text-[var(--color-brand-accent)] transition-colors">Reviews</a></li>
+      <li><a href="/3047/enquiry-form-html" class="hover:text-[var(--color-brand-accent)] transition-colors">Enquiry</a></li>
+      <li><a href="/3047/booking-forms-html" class="hover:text-[var(--color-brand-accent)] transition-colors">Booking Forms</a></li>
+      <li><a href="/3047/gallery-html" class="hover:text-[var(--color-brand-accent)] transition-colors">Gallery</a></li>
+      <li><a href="/3047/compartments-html" class="hover:text-[var(--color-brand-accent)] transition-colors">Compartments</a></li>
+    </ul>
+    <!-- Mobile hamburger -->
+    <button id="menu-toggle" class="lg:hidden flex flex-col gap-1.5 p-2" aria-label="Open menu">
+      <span class="block w-6 h-0.5 bg-[var(--color-ink)]"></span>
+      <span class="block w-6 h-0.5 bg-[var(--color-ink)]"></span>
+      <span class="block w-6 h-0.5 bg-[var(--color-ink)]"></span>
+    </button>
+  </div>
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-[var(--color-border)] px-4 pb-4">
+    <ul class="flex flex-col gap-3 pt-4 text-sm font-600 text-[var(--color-ink-soft)]">
+      <li><a href="/3047" class="text-[var(--color-brand-accent)] font-700">Home</a></li>
+      <li><a href="/3047/boarding-charges-html" class="hover:text-[var(--color-brand-accent)]">Boarding Charges</a></li>
+      <li><a href="/3047/opening-times-html" class="hover:text-[var(--color-brand-accent)]">Opening Times</a></li>
+      <li><a href="/3047/important-info-html" class="hover:text-[var(--color-brand-accent)]">Important Info</a></li>
+      <li><a href="/3047/reviews-html" class="hover:text-[var(--color-brand-accent)]">Reviews</a></li>
+      <li><a href="/3047/enquiry-form-html" class="hover:text-[var(--color-brand-accent)]">Enquiry Form</a></li>
+      <li><a href="/3047/booking-forms-html" class="hover:text-[var(--color-brand-accent)]">Booking Forms</a></li>
+      <li><a href="/3047/gallery-html" class="hover:text-[var(--color-brand-accent)]">Gallery</a></li>
+      <li><a href="/3047/compartments-html" class="hover:text-[var(--color-brand-accent)]">Compartments</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="relative min-h-[85vh] flex items-center overflow-hidden">
+  <img
+    src="/3047/images/img-6136-orig.jpg"
+    alt="Fairways Boarding Cattery"
+    width="1067"
+    height="800"
+    fetchpriority="high"
+    class="absolute inset-0 w-full h-full object-cover"
+  />
+  <div class="absolute inset-0 bg-black/60"></div>
+  <div class="relative z-10 max-w-4xl mx-auto px-6 py-20 text-white">
+    <span class="inline-block bg-[var(--color-brand-accent)] text-white text-sm font-700 px-4 py-1.5 rounded-full mb-6">📍 Ramsgate, Kent</span>
+    <h1 class="text-white font-800 mb-6">Fairways Boarding Cattery</h1>
+    <p class="text-xl text-white/90 mb-8 max-w-2xl">A small, personal cattery in Cliffsend, Ramsgate. Your cat gets individual care and attention from Kirsty every single day.</p>
+    <div class="flex flex-wrap gap-4">
+      <a href="/3047/enquiry-form-html" class="inline-block bg-[var(--color-brand-accent)] hover:bg-[var(--color-brand-accent-deep)] text-white font-700 px-8 py-3 rounded-full transition-colors">Make an Enquiry</a>
+      <a href="/3047/boarding-charges-html" class="inline-block bg-white/20 hover:bg-white/30 text-white font-700 px-8 py-3 rounded-full border border-white/40 transition-colors">View Charges</a>
+    </div>
+  </div>
+</section>
+
+<!-- Trust strip -->
+<section class="bg-[var(--color-brand-accent)] text-white py-4">
+  <div class="max-w-5xl mx-auto px-4 flex flex-wrap justify-center gap-6 text-sm font-600 text-center">
+    <span>✓ Licensed cattery &mdash; Licence No. LN/202200679</span>
+    <span>✓ Small, personal &amp; family-run</span>
+    <span>✓ Regular updates &amp; photos</span>
+    <span>✓ Heated compartments in winter</span>
+  </div>
+</section>
+
+<!-- Welcome from Kirsty -->
+<section class="py-16 bg-[var(--color-cream)]">
+  <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-[var(--color-ink)] font-800 mb-4">Welcome to Fairways</h2>
+      <p class="text-[var(--color-ink-soft)] mb-4">Thank you for visiting the Fairways website. I hope you will find all the information you need and get a feel for the care and comfort I strive to provide.</p>
+      <p class="text-[var(--color-ink-soft)] mb-4">If you would like to pay a visit, I would be delighted to arrange a day with you. Or if you have any questions, please feel free to get in touch.</p>
+      <p class="text-[var(--color-ink-soft)] mb-6">For any enquiries, please either use the Enquiry Form or contact me directly on the number below.</p>
+      <p class="text-[var(--color-brand-accent-deep)] font-700">With much appreciation, Kirsty</p>
+      <div class="mt-6 text-sm text-[var(--color-ink-soft)]">
+        <p>Tel: <a href="tel:07784629268" class="text-[var(--color-brand-accent)] font-600">07784 629268</a></p>
+        <p>Email: <a href="mailto:fairwayscattery@hotmail.co.uk" class="text-[var(--color-brand-accent)] font-600">fairwayscattery@hotmail.co.uk</a></p>
+        <p>Cliffsend, Ramsgate, Kent CT12 5EW</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-3">
+      <div class="aspect-square overflow-hidden rounded-xl">
+        <img src="/3047/images/img-6109-orig.jpg" alt="Cats at Fairways cattery" width="1067" height="800" loading="lazy" class="w-full h-full object-cover" />
+      </div>
+      <div class="aspect-square overflow-hidden rounded-xl">
+        <img src="/3047/images/img-6101-orig.jpg" alt="Happy cat boarding" width="1067" height="800" loading="lazy" class="w-full h-full object-cover" />
+      </div>
+      <div class="aspect-square overflow-hidden rounded-xl">
+        <img src="/3047/images/img-5778-orig.jpg" alt="Cattery compartment" width="1067" height="800" loading="lazy" class="w-full h-full object-cover" />
+      </div>
+      <div class="aspect-square overflow-hidden rounded-xl">
+        <img src="/3047/images/img-2379-orig.jpg" alt="Cat in cattery" width="1066" height="800" loading="lazy" class="w-full h-full object-cover" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What we offer -->
+<section class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-[var(--color-ink)] font-800 text-center mb-12">What We Offer</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-[var(--color-accent-light)] rounded-2xl p-6">
+        <div class="text-3xl mb-3">🐱</div>
+        <h3 class="text-[var(--color-ink)] font-700 mb-2">Individual Compartments</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm">Each cat or family group has their own private compartment, giving your cat the space and security they need.</p>
+      </div>
+      <div class="bg-[var(--color-accent-light)] rounded-2xl p-6">
+        <div class="text-3xl mb-3">🔥</div>
+        <h3 class="text-[var(--color-ink)] font-700 mb-2">Heated in Winter</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm">From October through to April, all compartments are heated so your cat stays warm and comfortable whatever the weather.</p>
+      </div>
+      <div class="bg-[var(--color-accent-light)] rounded-2xl p-6">
+        <div class="text-3xl mb-3">💌</div>
+        <h3 class="text-[var(--color-ink)] font-700 mb-2">Regular Updates</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm">We send regular updates and lovely videos so you can see your cat has settled and is happy while you are away.</p>
+      </div>
+      <div class="bg-[var(--color-accent-light)] rounded-2xl p-6">
+        <div class="text-3xl mb-3">📋</div>
+        <h3 class="text-[var(--color-ink)] font-700 mb-2">Licensed &amp; Insured</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm">Fully licensed with Licence No. LN/202200679, run by Mrs Kirsty Durrell. Your cat is in safe and accountable hands.</p>
+      </div>
+      <div class="bg-[var(--color-accent-light)] rounded-2xl p-6">
+        <div class="text-3xl mb-3">👥</div>
+        <h3 class="text-[var(--color-ink)] font-700 mb-2">Cats Sharing Welcome</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm">Got two or three cats from the same household? They can share a compartment at a discounted rate. View our <a href="/3047/boarding-charges-html" class="text-[var(--color-brand-accent)] underline">pricing page</a>.</p>
+      </div>
+      <div class="bg-[var(--color-accent-light)] rounded-2xl p-6">
+        <div class="text-3xl mb-3">🏡</div>
+        <h3 class="text-[var(--color-ink)] font-700 mb-2">Personal Touch</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm">A small, well-run cattery with a very personal touch. Your cats are loved as if they were our own.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing preview -->
+<section class="py-16 bg-[var(--color-cream)]">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <h2 class="text-[var(--color-ink)] font-800 mb-4">Boarding Charges 2026</h2>
+    <p class="text-[var(--color-ink-soft)] mb-10">Simple, fair pricing. Cats from the same household can share at a reduced rate.</p>
+    <div class="grid sm:grid-cols-2 gap-6">
+      <div class="bg-white rounded-2xl p-8 border border-[var(--color-border)] shadow-sm">
+        <h3 class="text-[var(--color-brand-accent)] font-700 mb-1">Summer Rate</h3>
+        <p class="text-xs text-[var(--color-ink-soft)] mb-4">1 May to 30 September</p>
+        <ul class="text-left space-y-3 text-[var(--color-ink)]">
+          <li class="flex justify-between border-b border-[var(--color-border)] pb-2"><span>1 cat</span><span class="font-700">£15.00/night</span></li>
+          <li class="flex justify-between border-b border-[var(--color-border)] pb-2"><span>2 cats sharing</span><span class="font-700">£22.50/night</span></li>
+          <li class="flex justify-between pb-2"><span>3 cats sharing</span><span class="font-700">£30.00/night</span></li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl p-8 border border-[var(--color-border)] shadow-sm">
+        <h3 class="text-[var(--color-brand-accent)] font-700 mb-1">Winter Rate</h3>
+        <p class="text-xs text-[var(--color-ink-soft)] mb-4">1 October to 30 April (includes heating)</p>
+        <ul class="text-left space-y-3 text-[var(--color-ink)]">
+          <li class="flex justify-between border-b border-[var(--color-border)] pb-2"><span>1 cat</span><span class="font-700">£16.00/night</span></li>
+          <li class="flex justify-between border-b border-[var(--color-border)] pb-2"><span>2 cats sharing</span><span class="font-700">£23.50/night</span></li>
+          <li class="flex justify-between pb-2"><span>3 cats sharing</span><span class="font-700">£31.00/night</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8">
+      <a href="/3047/boarding-charges-html" class="inline-block bg-[var(--color-brand-accent)] hover:bg-[var(--color-brand-accent-deep)] text-white font-700 px-8 py-3 rounded-full transition-colors">Full pricing details</a>
+    </div>
+  </div>
+</section>
+
+<!-- Customer reviews -->
+<section class="py-16 bg-[var(--color-brand-accent)]">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-white font-800 text-center mb-12">Genuine Customer Comments</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <blockquote class="bg-white/15 rounded-2xl p-6 text-white">
+        <p class="mb-3 text-white/95">"Fairways is a small well run cattery with a very personal touch."</p>
+      </blockquote>
+      <blockquote class="bg-white/15 rounded-2xl p-6 text-white">
+        <p class="mb-3 text-white/95">"Kirsty is absolutely brilliant and so attentive with our fur babies. I highly recommend Kirsty to look after your kitties."</p>
+      </blockquote>
+      <blockquote class="bg-white/15 rounded-2xl p-6 text-white">
+        <p class="mb-3 text-white/95">"A nervous George (with strangers) was very happy and enjoyed his stay. He has asked to stay again."</p>
+      </blockquote>
+      <blockquote class="bg-white/15 rounded-2xl p-6 text-white">
+        <p class="mb-3 text-white/95">"Beautiful and spotlessly clean. These cats are loved as if they were the owner's own cats."</p>
+      </blockquote>
+      <blockquote class="bg-white/15 rounded-2xl p-6 text-white">
+        <p class="mb-3 text-white/95">"We received regular updates and a lovely video to show that they had settled, which really put our minds at ease."</p>
+      </blockquote>
+      <blockquote class="bg-white/15 rounded-2xl p-6 text-white">
+        <p class="mb-3 text-white/95">"He always comes back looking so well and cared for."</p>
+      </blockquote>
+    </div>
+    <div class="text-center mt-10">
+      <a href="/3047/reviews-html" class="inline-block bg-white text-[var(--color-brand-accent-deep)] font-700 px-8 py-3 rounded-full hover:bg-[var(--color-cream)] transition-colors">Read all reviews</a>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery preview -->
+<section class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-[var(--color-ink)] font-800 text-center mb-10">Our Furry Visitors</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+      <div class="aspect-square overflow-hidden rounded-xl">
+        <img src="/3047/images/img-4037-orig.jpg" alt="Cat guest at Fairways" width="1066" height="800" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+      </div>
+      <div class="aspect-square overflow-hidden rounded-xl">
+        <img src="/3047/images/5742921-orig.jpg" alt="Cat guest at Fairways" width="1066" height="800" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+      </div>
+      <div class="aspect-square overflow-hidden rounded-xl">
+        <img src="/3047/images/img-5812-3.jpg" alt="Cat guest at Fairways" width="320" height="181" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+      </div>
+      <div class="aspect-square overflow-hidden rounded-xl">
+        <img src="/3047/images/epson-20032023190051.jpg" alt="Cat guest at Fairways" width="265" height="184" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+      </div>
+    </div>
+    <div class="text-center mt-8">
+      <a href="/3047/gallery-html" class="inline-block bg-[var(--color-brand-accent)] hover:bg-[var(--color-brand-accent-deep)] text-white font-700 px-8 py-3 rounded-full transition-colors">View full gallery</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-20 bg-[var(--color-ink)] text-white text-center">
+  <div class="max-w-2xl mx-auto px-6">
+    <h2 class="text-white font-800 mb-4">Ready to book your cat in?</h2>
+    <p class="text-white/80 mb-8">Fill in our enquiry form or give Kirsty a call on 07784 629268 to check availability and arrange a visit.</p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href="/3047/enquiry-form-html" class="inline-block bg-[var(--color-brand-accent)] hover:bg-[var(--color-brand-accent-deep)] text-white font-700 px-8 py-3 rounded-full transition-colors">Send an Enquiry</a>
+      <a href="tel:07784629268" class="inline-block bg-white/10 hover:bg-white/20 text-white font-700 px-8 py-3 rounded-full border border-white/30 transition-colors">Call 07784 629268</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[var(--color-ink)] text-white/70 border-t border-white/10 pt-12 pb-6">
+  <div class="max-w-5xl mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+    <div>
+      <h4 class="text-white font-700 mb-3">Fairways Boarding Cattery</h4>
+      <p class="text-sm">50 Foads Hill<br />Cliffsend, Ramsgate<br />Kent CT12 5EW</p>
+      <p class="text-sm mt-3">Tel: <a href="tel:07784629268" class="text-[var(--color-brand-accent)] hover:underline">07784 629268</a></p>
+      <p class="text-sm">Email: <a href="mailto:fairwayscattery@hotmail.co.uk" class="text-[var(--color-brand-accent)] hover:underline">fairwayscattery@hotmail.co.uk</a></p>
+    </div>
+    <div>
+      <h4 class="text-white font-700 mb-3">Quick Links</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/3047" class="hover:text-white transition-colors">Home</a></li>
+        <li><a href="/3047/boarding-charges-html" class="hover:text-white transition-colors">Boarding Charges</a></li>
+        <li><a href="/3047/opening-times-html" class="hover:text-white transition-colors">Opening Times</a></li>
+        <li><a href="/3047/important-info-html" class="hover:text-white transition-colors">Important Info</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="text-white font-700 mb-3">More Pages</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/3047/reviews-html" class="hover:text-white transition-colors">Reviews</a></li>
+        <li><a href="/3047/enquiry-form-html" class="hover:text-white transition-colors">Enquiry Form</a></li>
+        <li><a href="/3047/booking-forms-html" class="hover:text-white transition-colors">Booking Forms</a></li>
+        <li><a href="/3047/gallery-html" class="hover:text-white transition-colors">Gallery</a></li>
+        <li><a href="/3047/compartments-html" class="hover:text-white transition-colors">Compartments</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="text-white font-700 mb-3">Licence</h4>
+      <p class="text-sm">Licence No. LN/202200679</p>
+      <p class="text-sm mt-1">Mrs Kirsty Durrell</p>
+    </div>
+  </div>
+  <div class="max-w-5xl mx-auto px-6 border-t border-white/10 pt-4 text-xs text-center text-white/40">
+    &copy; 2026 Fairways Boarding Cattery. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => menu?.classList.toggle('hidden'));
+</script>
+</body>
+</html>
